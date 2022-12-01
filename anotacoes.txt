@@ -1,0 +1,24 @@
+###PIP
+
+~=: versão compatível - pode ser qualquer versão mais atual que não quebre compatibilidade com a definida.
+ex: pip3 install flask~=2.0.0
+
+
+==: versão exata - define uma versão fixa que deve ser instalada (como vimos no vídeo).
+!=: exclusão de versão - define a versão que não é para instalar, pegando assim a mais atual sem ser a definida.
+<=, >=: versão maior ou igual e menor ou igual - ajuda a restringir versões, inclusive a definida.
+<, >: versão maior ou menor - ajuda a restringir versões, excluindo a definid
+
+
+
+
+
+# comando para criar um abiente virtual
+# python3 -m venv venv
+
+# mpstra todas dependencias baixadas
+#   pip freeze 
+
+
+# com este comando salvamos todas as dependecias baixadas em um arquivo txt
+# pip freeze > requirements.txt
