@@ -22,3 +22,9 @@ ex: pip3 install flask~=2.0.0
 
 # com este comando salvamos todas as dependecias baixadas em um arquivo txt
 # pip freeze > requirements.txt
+
+
+
+# session permite guardar informações, por mais de um ciclo de request atraves dos cookies do navegador
+
+#ao utilizar o session é necessario criar uma secret_key onde o papel do mesmo é criptografar as informações armazenadas nos cookies

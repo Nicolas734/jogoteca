@@ -8,6 +8,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename = 'bootstrap.css') }}"></link>
     </head>
     <body>
+
+        {% with messages = get_flashed_messages() %}
+            {% if messages %} 
+                <ul id="messages" class="list-unstyled">
+                {% for message in messages %}
+                    <li class="alert alert-success">{{ message }}</li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+
         <div class="container">
             <div class="page-header">
                 <h1>{{ titulo }}</h1>
