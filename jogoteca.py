@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, session, flash, url_for
 
 app = Flask(__name__) 
-app.secret_key = 'lira'
+app.secret_key = ''
 #esse name faz uma referência ao próprio arquivo, garantindo que isso vai fazer rodar a aplicação.
 
 class Jogo:
